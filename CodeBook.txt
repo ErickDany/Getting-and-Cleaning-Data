@@ -1,0 +1,26 @@
+v_temp: Used for download zip file
+
+v_file_features: name and path of file with information of the features
+v_file_activity_labels: name and path of file with information of the activities
+v_file_subject_train: name and path of file with train subjects
+v_file_X_train: name and path of file with train measures
+v_file_y_train: name and path of file with train activities
+v_file_subject_test: name and path of file with test subjects
+v_file_X_test: name and path of file with test measures
+v_file_y_test: name and path of file with test activities
+
+v_data_features: data frame with information of the features
+v_data_activity_labels: data frame with information of the activities
+v_data_subject_train: data frame with train subjects
+v_data_X_train: data frame with train measures
+v_data_y_train: data frame with train activities
+v_data_subject_test: data frame with test subjects
+v_data_X_test: data frame with test measures
+v_data_y_test: data frame with test activities
+
+v_data_train: data frame with information of training measures related to mean and standard desviation. Later information about activity and subject was added
+v_data_test: data frame with information of testing measures related to mean and standard desviation. Later information about activity and subject was added
+ 
+v_data: data frame with training(v_data_train) and testing(v_data_test) information 
+
+v_final_sumarise: v_data grouped by activity and subject, the measures are the mean of the detail information
